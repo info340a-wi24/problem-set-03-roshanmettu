@@ -1,1 +1,135 @@
 /* your CSS goes here */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2 {
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-weight: 300;
+    margin-bottom: 0.5rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.material-icons {
+    position: relative;
+    top: 5px;
+}
+
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+h1, h2, ul, p {
+    margin-top: 0;
+}
+
+ul, p {
+    margin-bottom: 1rem;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #2c96bf;
+    color: white;
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.25s ease-out, border-bottom 0.25s ease-out;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #f0f0f0;
+    border-bottom: 0.8rem solid #f0f0f0;
+}
+
+header {
+    color: white;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    background-image: url('../img/paul-gilmore-145802-unsplash.jpg');
+    background-size: cover;
+    background-color: #0084af;
+    background-position: center;
+}
+
+header .motto {
+    font-style: italic;
+    font-size: 1.25rem;
+}
+
+#menu {
+    background-color: #f0f0f0;
+}
+
+#menu dt {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+#menu dd {
+    margin: 0;
+}
+
+#menu img {
+    height: 200px;
+    border-radius: 15px;
+}
+
+#about {
+    background-color: #e0e0e0;
+    line-height: 1.5;
+}
+
+footer {
+    color: white;
+    background-color: #3e1305;
+}
+
+footer p {
+    margin: 0;
+    line-height: 1.25;
+}
+
+footer p:last-child {
+    padding-top: 8px;
+}
